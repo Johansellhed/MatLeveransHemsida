@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px) {
+    /* styles */
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* styles */
+  }
+  
+  body {
+    background-image: url("matindexbild.png");
+    background-size: cover;
+  }
+  
+  .topbar {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+  
+    .topmenu,
+    .topcontact,
+    .topmyorders {
+      color: black; /* Change the color to red */
+      text-decoration: none; /* Remove the underline if desired */
+    }
+  }
+  
+  .graybar {
+    background-color: gray;
+    height: 10px;
+    width: auto;
+  }
+  
+  .textheader {
+    text-align: center;
+  }
+  
+  .aboutus {
+    background-color: gray;
+    margin-left: 330px;
+    height: 300px;
+    width: 600px;
+    text-align: center;
+    border: solid 2px black;
+  }
+  

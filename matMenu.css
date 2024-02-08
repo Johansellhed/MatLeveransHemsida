@@ -1,0 +1,425 @@
+@media only screen and (max-width: 600px) { /* styles */ }
+@media only screen and (min-width: 601px) and (max-width: 1024px) { /* styles */ }
+
+
+body{
+    background-image: url("matindexbild2.png");
+    background-size: cover;
+}
+
+.topbar{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topmenu{
+    color: black; /* Change the color to red */
+    text-decoration: underline; /* Remove the underline if desired */
+}
+
+.topcontact{
+    color: black; /* Change the color to red */
+    text-decoration: none; /* Remove the underline if desired */
+}
+
+.topmyorders{
+    color: black; /* Change the color to red */
+    text-decoration: none; /* Remove the underline if desired */
+}
+
+.graybar{
+    background-color: gray;
+    height: 10px;
+    width: auto;
+}
+
+.textheader{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 320px 320px ;
+    gap: 15px;
+    border-radius: 10%;
+    
+}
+
+
+
+.item1{
+    background-image: url("matbild1.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+}
+
+.infotext1{
+    display: none;
+}
+
+.infotext2{
+    display: none;
+}
+
+.infotext3{
+    display: none;
+}
+
+.infotext4{
+    display: none;
+}
+
+.infotext5{
+    display: none;
+}
+
+.infotext6{
+    display: none;
+}
+
+.shop1{
+    display: none;
+}
+
+.shop2{
+    display: none;
+}
+
+.shop3{
+    display: none;
+}
+
+.shop4{
+    display: none;
+}
+
+.shop5{
+    display: none;
+}
+
+.shop6{
+    display: none;
+}
+
+/* .item1:hover{
+
+    background-image: url("matbild1.png");
+    background-color: gray;
+    width: 250px;
+    opacity: 0.9;
+    
+
+
+} */
+
+.item1:hover .infocontainer1{
+
+
+    background-color: gray;
+    width: 320px;
+    height: 300px;
+    opacity: 0.9;
+    margin-left: 3px;
+
+
+    display: block;
+
+
+}
+
+.item1:hover .shop1{
+    display: block;
+}
+
+.item1:hover .infotext1{
+
+
+    
+
+    display: block;
+
+
+ }
+
+ .infotext1{
+    padding: 50px;
+ }
+
+
+
+ .item2:hover .infocontainer2{
+
+
+    background-color: gray;
+    width: 320px;
+    height: 300px;
+    opacity: 0.9;
+    margin-left: 3px;
+
+
+    display: block;
+
+
+}
+
+.item2:hover .shop2{
+    display: block;
+}
+
+.item2:hover .infotext2{
+
+
+    
+
+    display: block;
+
+
+ }
+
+ .infotext2{
+    padding: 50px;
+ }
+
+
+
+.item2{
+    background-image: url("matbild2.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+}
+
+.item3{
+    background-image: url("matbild3.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+}
+
+
+.item3:hover .infocontainer3{
+
+
+    background-color: gray;
+    width: 320px;
+    height: 300px;
+    opacity: 0.9;
+    margin-left: 3px;
+
+
+    display: block;
+
+
+}
+
+.item3:hover .shop3{
+    display: block;
+}
+
+.item3:hover .infotext3{
+
+
+    
+
+    display: block;
+
+
+ }
+
+ .infotext3{
+    padding: 50px;
+ }
+
+
+
+.item4{
+    background-image: url("matbild4.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+}
+
+
+
+
+
+.item4:hover .infocontainer4{
+
+
+    background-color: gray;
+    width: 320px;
+    height: 300px;
+    opacity: 0.9;
+    margin-left: 3px;
+
+
+    display: block;
+
+
+}
+
+.item4:hover .shop4{
+    display: block;
+}
+
+.item4:hover .infotext4{
+
+
+    
+
+    display: block;
+
+
+ }
+
+ .infotext4{
+    padding: 50px;
+ }
+
+
+
+
+.item5{
+    background-image: url("matbild5.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+}
+
+
+
+.item5:hover .infocontainer5{
+
+
+    background-color: gray;
+    width: 320px;
+    height: 300px;
+    opacity: 0.9;
+    margin-left: 3px;
+
+
+    display: block;
+
+
+}
+
+.item5:hover .shop5{
+    display: block;
+}
+
+.item5:hover .infotext5{
+
+
+    
+
+    display: block;
+
+
+ }
+
+ .infotext5{
+    padding: 50px;
+ }
+
+
+
+
+
+.item6{
+    background-image: url("matbild6.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+}
+
+
+
+
+.item6:hover .infocontainer6{
+
+
+    background-color: gray;
+    width: 320px;
+    height: 300px;
+    opacity: 0.9;
+    margin-left: 3px;
+
+
+    display: block;
+
+
+}
+
+.item6:hover .shop6{
+    display: block;
+}
+
+.item6:hover .infotext6{
+
+
+    
+
+    display: block;
+
+
+ }
+
+ .infotext6{
+    padding: 50px;
+ }
+
+
+
+
+
+/* .i1{
+    background-color: gray;
+    width: 255px;
+    height: 50px;
+    margin-top: 200px;
+    border-radius: 10%;
+}
+
+.i2{
+    background-color: gray;
+    width: 255px;
+    height: 50px;
+    margin-top: 200px;
+    border-radius: 10%;
+}
+
+.i3{
+    background-color: gray;
+    width: 255px;
+    height: 50px;
+    margin-top: 200px;
+    border-radius: 10%;
+}
+
+.i4{
+    background-color: gray;
+    width: 255px;
+    height: 50px;
+    margin-top: 200px;
+    border-radius: 10%;
+}
+
+.i5{
+    background-color: gray;
+    width: 255px;
+    height: 50px;
+    margin-top: 200px;
+    border-radius: 10%;
+}
+
+.i6{
+    background-color: gray;
+    width: 255px;
+    height: 50px;
+    margin-top: 200px;
+    border-radius: 10%;
+} */
+
